@@ -4,7 +4,7 @@
 Основна мова розробки бекенду: Python
 Тема проєкту: RMT Therapy — інтерактивна вебплатформа, розроблена для дітей із розладами аутистичного спектра (РАС).
 Посилання на репозиторій: https://github.com/AnastasiiaBurenko/RMT-Therapy
-Посилання на GitHub Pages: https://AnastasiiaBurenko.github.io/RMT-Therapy/
+Посилання на GitHub Pages: https://anastasiiaburenko.github.io/RMT-Therapy/
 1. Вивід команд перевірки версій
 - Python: python --version -> Python 3.14.7
 - Node.js: node -v -> v24.21.0
