@@ -17,4 +17,4 @@ Session (Тренувальна сесія): id (int), user_id (int), exercise_i
 Лабораторна робота 9: Бази даних і повний цикл роботи з даними.
 Лабораторна робота 10: Безпека, оптимізація та розгортання застосунку.
 4. Опублікована сторінка
-[Переглянути проєкт на GitHub Pages](https://github.com/AnastasiiaBurenko/RMT-Therapy)
+[Переглянути проєкт на GitHub Pages](https://anastasiiaburenko.github.io/RMT-Therapy/)
