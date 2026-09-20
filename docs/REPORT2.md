@@ -6,8 +6,8 @@
 **Посилання на репозиторій GitHub:** [https://github.com/AnastasiiaBurenko/RMT-Therapy](https://github.com/AnastasiiaBurenko/RMT-Therapy)  
 **Посилання на опубліковані сторінки (GitHub Pages):**  
 * [Головна сторінка](https://anastasiiaburenko.github.io/RMT-Therapy/index.html)  
-* [Перелік вправ](C:\Users\nuevo\Desktop\RMT Therapy\exercises.html)  
-* [Форма запису](C:\Users\nuevo\Desktop\RMT Therapy\contact.html)  
+* [Перелік вправ](anastasiiaburenko.github.io/RMT-Therapy/exercises.html)  
+* [Форма запису](anastasiiaburenko.github.io/RMT-Therapy/contact.html)  
 
 ---
 
