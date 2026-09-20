@@ -12,7 +12,8 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     web_dir = os.path.dirname(__file__)
-    os.chdir(web_dir)
+    if web_dir:
+        os.chdir(web_dir)
     
     with socketserver.TCPServer(("", PORT), CustomHandler) as httpd:
         print(f"Сервер запущено: http://localhost:{PORT}")
