@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Форма запису на первинну діагностику та консультацію RMT Therapy.">
+    <title>RMT Therapy | Запис на діагностику</title>
+</head>
+<body>
+    <a href="#main-content">Перейти до основного вмісту</a>
+
+    <header>
+        <h1>Запис на діагностику RMT</h1>
+        <nav aria-label="Головне меню">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="exercises.html">Перелік вправ</a></li>
+                <li><a href="contact.html">Запис на діагностику</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section>
+            <h2>Форма реєстрації пацієнта</h2>
+            <p>Будь ласка, заповніть форму нижче для запису на первинну оцінку моторних навичок.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Контактні дані батьків / опікуна</legend>
+                    
+                    <p>
+                        <label for="fullname">ПІБ опікуна:</label><br>
+                        <input type="text" id="fullname" name="fullname" required placeholder="Іванов Іван Петрович">
+                    </p>
+
+                    <p>
+                        <label for="email">Електронна пошта:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="example@mail.com">
+                    </p>
+
+                    <p>
+                        <label for="phone">Номер телефону:</label><br>
+                        <input type="tel" id="phone" name="phone" required pattern="\+380[0-9]{9}" placeholder="+380XXXXXXXXX">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Деталі про дитину та сесію</legend>
+
+                    <p>
+                        <label for="child-age">Вік дитини (років):</label><br>
+                        <input type="number" id="child-age" name="child_age" min="3" max="18" required>
+                    </p>
+
+                    <p>
+                        <label for="session-date">Бажана дата консультації:</label><br>
+                        <input type="date" id="session-date" name="session_date" required>
+                    </p>
+
+                    <p>
+                        <label for="exercise-select">Оберіть очікувану вправу:</label><br>
+                        <select id="exercise-select" name="exercise">
+                            <option value="EX-01">EX-01: Марш у ритм</option>
+                            <option value="EX-02">EX-02: Оплески над головою</option>
+                            <option value="EX-03">EX-03: Асиметричний крок</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="notes">Додаткові примітки чи скарги:</label><br>
+                        <textarea id="notes" name="notes" rows="4" cols="40" placeholder="Опишіть особливості дитини..."></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Надіслати заявку</button>
+                    <button type="reset">Очистити форму</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 RMT Therapy Hub. Всі права захищено.</p>
+    </footer>
+</body>
+</html>
